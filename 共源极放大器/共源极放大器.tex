@@ -11,7 +11,7 @@
 
 \begin{document}
 \section{共源极放大电路}
-\subsection{知识点回顾：MOS小信号模型}
+\subsection{知识点回顾：MOS小信号模型\\}
 \begin{multicols}{2}
     \begin{figure}[H]
         \centering
@@ -42,7 +42,7 @@
 
 \end{multicols}
 
-\subsection{漏极电阻负载的共源极}
+\subsection{漏极电阻负载的共源极\\}
 \subsubsection{Gain 增益}
 \begin{multicols}{2}
     \begin{figure}[H]
@@ -126,7 +126,7 @@
     \end{figure}
 \end{multicols}
 
-\subsection{Diode-connected MOS Load 二极管连接的MOS负载}
+\subsection{Diode-connected MOS Load 二极管连接的MOS负载\\}
 \begin{multicols}{2}
     \begin{itemize}
         \item 求从M2的S极往上看的电阻：
@@ -220,7 +220,7 @@
 \end{multicols}
 如果考虑沟道长度调制效应：$A_v = -g_{m1}(\frac{1}{g_{m2}}||r_{o1}||r_{o2})$
 
-\subsection{Current Source Load}
+\subsection{Current Source Load\\}
 \subsubsection{Gain 增益}
 \begin{multicols}{2}
     \begin{figure}[H]
@@ -248,7 +248,7 @@
         $\frac{W}{L}$增大 \\
         增大$(V_{GS} - V_{TH})$没用：因为$I_D\propto(V_{GS} - V_{TH})^2\rightarrow r_o\uparrow$
 \end{enumerate}
-\subsection{线性区MOS负载}
+\subsection{线性区MOS负载\\}
 \subsubsection{Gain 增益}
 
 \begin{wrapfigure}{r}{0.4\textwidth}
@@ -266,7 +266,7 @@ $M_2$工作在线性区：
 \end{align}
 
 \newpage
-\subsection{Source degeneration: 源极负反馈}
+\subsection{Source degeneration: 源极负反馈\\}
 \subsubsection{Gain 增益}
 
 \begin{multicols}{2}
@@ -282,7 +282,7 @@ $M_2$工作在线性区：
     求$G_m$：把输出短路看输入产生多少电流。\par
     \paragraph{大信号法：}
     \begin{align}
-        &G_m = \frac{\partial I_D}{\partial V_{in}} \notag \\
+        G_m &= \frac{\partial I_D}{\partial V_{in}} \notag \\
         &= \frac{\partial I_D}{\partial V_{GS}}\ \frac{\partial V_{GS}}{\partial V_{in}}\notag \\
         &= g_m\frac{\partial V_{GS}}{\partial V_{in}}
         \label{for:Gm}
