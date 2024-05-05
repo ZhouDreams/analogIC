@@ -171,8 +171,10 @@
 \begin{equation}
     A_v = - \sqrt{\frac{(\frac{W}{L})_1}{(\frac{W}{L})_2}}\times \frac{1}{1 + \eta}
 \end{equation} \par
-缺点：$\eta$会随着$V_{in}$的变化而变化，造成增益$A_v$随着$V_{in}$而变化。
-\paragraph{Solution:将$M_2$换成PMOS！}
+缺点：$\eta$会随着$V_{in}$的变化而变化，造成增益$A_v$随着$V_{in}$而变化。\\
+
+\paragraph{Solution:将$M_2$换成PMOS！\\}
+如图\ref{fig:共源二极管连接的PMOS负载}:
 
 \begin{multicols}{2}
     \begin{figure}[H]
@@ -200,10 +202,10 @@
 我们发现了一种巧合：增益=过驱动电压之比 \\
 
 结论：要使增益很大，过驱动电压之比也要很大，$M_2$与$M_1$的尺寸之比太大（电路无法实现）。\\
-\par
 
-\paragraph{Solution: $M_2$旁增加受控电流源} 
-\par
+\paragraph{Solution: $M_2$旁增加受控电流源\\}
+如图\ref{fig:增加旁路受控源}:
+
 \begin{multicols}{2}
     \begin{figure}[H]
         \centering
