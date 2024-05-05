@@ -1,5 +1,8 @@
 \documentclass[twoside,a4paper,openright,titlepage,draft]{ctexrep}
 \usepackage[final]{graphicx}
+\usepackage{subfig}
+% \usepackage{subcaption}
+\usepackage{extarrows}
 \usepackage{multicol}
 \usepackage{float}
 \usepackage{amsmath}
@@ -336,6 +339,50 @@ ignore $\lambda$ and $\gamma$:
 
 所以：
 \begin{equation}
-    A_v = \frac{V_{out}}{V_{in}} = -\frac{g_m}{1 + g_mR_S}R_D
+    A_v = \frac{V_{out}}{V_{in}} = -\frac{g_m}{1 + g_mR_S}R_D = -G_mR_D
 \end{equation}
+
+所以：
+\begin{equation}
+    G_m = \frac{g_m}{1+g_mR_S} \xlongequal{rearrange} \frac{1}{R_S + {1 \over g_m}}
+\end{equation}
+
+对比：若$R_S = 0$(不带degeneration的情况):
+\begin{equation}
+    G_m = \frac{1}{0 + {1 \over g_m}} = g_m
+\end{equation}
+
+随着$R_S$的增大 $\rightarrow$ $g_m$在$G_m$中的占比减小 $\rightarrow$ $V_{in}$对$G_m$的影响减小 $\rightarrow$ 增益更加线性！
+
+\paragraph{有和没有source degeneration的$I_D$和$g_m$对比}
+\newpage
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{nodegeneration1.eps}
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{nodegeneration2.eps}
+    \end{minipage}
+    \caption{不带source regeneration的图像}
+    \label{fig:不带degeneration的图像}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{yesdegeneration1.eps}
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{yesdegeneration2.eps}
+    \end{minipage}
+    \caption{带source regeneration的图像}
+    \label{fig:带degeneration的图像}
+\end{figure}
+
+可以注意到，带有source degeneration的电路增益会趋近于$1 \over R_S$。
 \end{document}
