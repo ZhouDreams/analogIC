@@ -57,4 +57,20 @@
 
 \subsection{增益修正}
     通过等式4很显然$\beta$A的值很关键。
+
+    对等式4进行变换可得：
+    \begin{equation}
+        {Y \over X}={A \over 1+{\beta}A}={1\over\beta}({1\over1+{1\over\beta A}})
+    \end{equation}
+
+    假定$\beta$A$\gg$1,则${1\over\beta A}\ll1$.根据泰勒展开，当x$\ll $1时：
+    \begin{equation}
+        {1 \over 1+x}=1-x^2+x^3-......\approx 1-x
+    \end{equation}
+    
+    结合等式5、6可得：
+    \begin{equation}
+        {Y\over X}\approx{1\over\beta}(1-{1\over\beta A})\approx{1\over\beta}
+    \end{equation}
+
 \end{document}
