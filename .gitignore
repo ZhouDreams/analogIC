@@ -4,6 +4,7 @@
 *.fls
 *.log
 !*.tex
+!*.dpf
 !*.eps
 !*.drawio
 !*.bkp
