@@ -1,5 +1,6 @@
 \documentclass[twoside,a4paper,openright,titlepage,draft]{ctexrep}
 \usepackage[final]{graphicx}
+% \usepackage{ctex}
 \usepackage{subfig}
 % \usepackage{subcaption}
 \usepackage{extarrows}
@@ -8,13 +9,19 @@
 \usepackage{amsmath}
 \usepackage{subfig}
 \usepackage{cancel}
+\usepackage{hyperref}
 \usepackage{wrapfig}
+\usepackage{bookmark}
 \graphicspath{{./pictures}}
 \setcounter{secnumdepth}{3}
 
 \begin{document}
-\section{共源极放大电路}
-\subsection{知识点回顾：MOS小信号模型\\}
+\tableofcontents
+\newpage
+
+\section{共源极放大电路}\label{sec:1}
+\subsection{知识点回顾：MOS小信号模型}
+\vspace*{1em}
 \begin{multicols}{2}
     \begin{figure}[H]
         \centering
@@ -45,7 +52,8 @@
 
 \end{multicols}
 
-\subsection{漏极电阻负载的共源极\\}
+\subsection{漏极电阻负载的共源极}
+\vspace*{1em}
 \subsubsection{Gain 增益}
 \begin{multicols}{2}
     \begin{figure}[H]
@@ -129,7 +137,8 @@
     \end{figure}
 \end{multicols}
 
-\subsection{Diode-connected MOS Load 二极管连接的MOS负载\\}
+\subsection{Diode-connected MOS Load 二极管连接的MOS负载}
+\vspace*{1em}
 \begin{multicols}{2}
     \begin{itemize}
         \item 求从M2的S极往上看的电阻：
@@ -223,7 +232,8 @@
 \end{multicols}
 如果考虑沟道长度调制效应：$A_v = -g_{m1}(\frac{1}{g_{m2}}||r_{o1}||r_{o2})$
 
-\subsection{Current Source Load\\}
+\subsection{Current Source Load}
+\vspace*{1em}
 \subsubsection{Gain 增益}
 \begin{multicols}{2}
     \begin{figure}[H]
@@ -251,7 +261,8 @@
         $\frac{W}{L}$增大 \\
         增大$(V_{GS} - V_{TH})$没用：因为$I_D\propto(V_{GS} - V_{TH})^2\rightarrow r_o\uparrow$
 \end{enumerate}
-\subsection{线性区MOS负载\\}
+\subsection{线性区MOS负载}
+\vspace*{1em}
 \subsubsection{Gain 增益}
 
 \begin{wrapfigure}{r}{0.4\textwidth}
@@ -272,7 +283,8 @@ $M_2$工作在线性区：
 \\
 \par
 % \newpage
-\subsection{Source degeneration: 源极负反馈\\}
+\subsection{Source degeneration: 源极负反馈}
+\vspace*{1em}
 \subsubsection{Gain 增益}
 
 \begin{multicols}{2}
@@ -349,6 +361,7 @@ ignore $\lambda$ and $\gamma$:
 \begin{equation}
     G_m = \frac{g_m}{1+g_mR_S} \xlongequal{rearrange} \frac{1}{R_S + {1 \over g_m}}
 \end{equation}
+结论：$G_m$比$g_m$变小了$1 + g_mR_S$倍。
 
 对比：若$R_S = 0$(不带degeneration的情况):
 \begin{equation}
@@ -389,4 +402,38 @@ ignore $\lambda$ and $\gamma$:
 \end{figure}
 
 可以注意到，带有source degeneration的电路增益基本不变，趋近于$1 \over R_S$。
+
+\subsubsection{不忽略$\lambda$和$\gamma$的跨导$G_m$}
+如图\ref{fig:计算跨导Gm}所示画出小信号图($V_b = 0$)\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{transconductor.eps}
+    \caption{计算跨导$G_m$}
+    \label{fig:计算跨导Gm}
+\end{figure}
+\begin{align}
+    V_S(\frac{1}{R} + r_0) &= g_m(V_x - V_S) - g_{mb}V_S \notag \\
+    V_S &= \frac{g_m}{g_m + g_{mb} + \frac{1}{r_0} + \frac{1}{R_S}}V_x \notag \\
+    I_x &= \frac{V_S}{R} \notag \\
+    &= \frac{g_m}{R_S(g_m + g_{mb} + \frac{1}{r_0}) + 1}V_x \notag \\
+    G_m &= \frac{I_x}{V_x} \notag \\
+    &= \frac{g_m}{R_S(g_m + g_{mb} + \frac{1}{r_0}) + 1}
+\end{align}
+\subsubsection{Output Impedence输出阻抗}
+用一样的小信号法，可以计算出：
+\begin{align}
+    r_{out} &= [1 + (g_m + g_{mb})r_0]R + r_0 \notag \\
+    &= [(g_m + g_{mb} + \frac{1}{r_0})R + 1]r_0
+\end{align}
+结论：比没有$R_S$的时候增大了很多。
+\subsubsection{增益Gain again}
+\begin{equation}
+    A_V = -G_m(R_D\ ||\ r_{out})
+\end{equation}
+结论，比没有$R_S$的时候变小了许多。增益下降了
+\paragraph{观察：当$R_D=\infty$的时候：}
+\begin{equation}
+    A_V = -g_mr_0
+\end{equation}
+就是本征增益
 \end{document}
