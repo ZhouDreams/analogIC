@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2024-05-09T07:33:12.723Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="DZBpv5hqjkyTqaI5Bg5i" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="WjcJfgsfIlz2taxzflXY">
+    <mxGraphModel dx="658" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HdhjMWvneFLXwar4kmNs-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transistors.nmos;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transistors.nmos;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-3" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="380" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-8" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;" vertex="1" parent="1">
+          <mxGeometry x="375" y="245" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-9" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;" vertex="1" parent="1">
+          <mxGeometry x="375" y="335" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-11" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot;font-size: 16.6667px;&quot;&gt;&lt;sub&gt;B&lt;/sub&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot;font-size: 13.8889px;&quot;&gt;in&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;font-size: 16.6667px;&quot;&gt;2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;font-size: 16.6667px;&quot;&gt;1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-17" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transistors.nmos;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-18" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="380" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-19" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;" vertex="1" parent="1">
+          <mxGeometry x="495" y="245" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-21" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot;font-size: 16.6667px;&quot;&gt;&lt;sub&gt;B&lt;/sub&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-23" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;font-size: 16.6667px;&quot;&gt;2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-25" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="510" y="325" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-26" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;r&lt;sub&gt;o1&lt;/sub&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HdhjMWvneFLXwar4kmNs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <mxPoint x="425" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="170" as="sourcePoint" />
+            <mxPoint x="560" y="203" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-29" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;r&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2020px%3B%26quot%3B%26gt%3Br%26lt%3Bsub%26gt%3Bo1%26lt%3B%2Fsub%26gt%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22495%22%20y%3D%22325%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdhjMWvneFLXwar4kmNs-30" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;r&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2020px%3B%26quot%3B%26gt%3Br%26lt%3Bsub%26gt%3Bo1%26lt%3B%2Fsub%26gt%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22495%22%20y%3D%22325%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
